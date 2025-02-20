@@ -17,14 +17,12 @@ public class BMI {
 
         System.out.println("Your Body Mass Index(BMI) is "+ index);
 
-        if (index>18.5)
+        if (index<18.5)
             System.out.println(status+ "Underweight");
-//        else if (18.5=<index<25.0)
-//            System.out.println(status+ "Normal");
-//        else if (25.0=<index<30)
-//            System.out.println(status+ "Overweight");
-//        else if (30=<index)
-//            System.out.println(status+ "Overweight");
+        else if (index >= 18.5 && index < 25.0)
+            System.out.println(status + "Normal");
+        else if (index >= 25.0 && index < 30.0)
+            System.out.println(status+ "Overweight");
 scanner.close();
 
 
