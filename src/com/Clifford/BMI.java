@@ -9,7 +9,7 @@ public class BMI {
         double weight=0,height=0;
         System.out.print("Enter your weight in kilograms(kg):");
         weight=scanner.nextDouble();
-        String status="Body Mass Index(BMI) status= ";
+        String status="Your Body Mass Index(BMI) status is ";
 
         System.out.print("Enter your height in meters(m):");
         height=scanner.nextDouble();
