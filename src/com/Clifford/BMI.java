@@ -14,6 +14,12 @@ public class BMI {
         height=scanner.nextInt();
         index= weight/(height*height);
 
-        System.out.println("");
+        System.out.println("Your Body Mass Index(BMI) is "+ index);
+
+        if (index<18.5)
+            System.out.println("You are Underweight");
+
+
+
     }
 }
