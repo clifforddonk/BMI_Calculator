@@ -23,6 +23,8 @@ public class BMI {
             System.out.println(status + "Normal");
         else if (index >= 25.0 && index < 30.0)
             System.out.println(status+ "Overweight");
+        else
+            System.out.println(status + "Obese");
 scanner.close();
 
 
