@@ -9,6 +9,7 @@ public class BMI {
         int weight=0,height=0,index=0;
         System.out.print("Enter your weight in kilograms(kg):");
         weight=scanner.nextInt();
+        String status="Body Mass Index(BMI) status= ";
 
         System.out.println("Enter your height in meters(m):");
         height=scanner.nextInt();
@@ -17,9 +18,10 @@ public class BMI {
         System.out.println("Your Body Mass Index(BMI) is "+ index);
 
         if (index<18.5)
-            System.out.println("You are Underweight");
+            System.out.println(status+ "Underweight");
         else if (18.5<index=<25.0)
-            System.out.println("You are Underweight");
+            System.out.println(status+ "Normal");
+
 
 
     }
