@@ -1,4 +1,4 @@
-import com.Clifford.BMI;
+package com.Clifford;
 
 public class Main {
     public static void main(String[] args) {
