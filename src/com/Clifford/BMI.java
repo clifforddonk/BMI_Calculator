@@ -18,7 +18,8 @@ public class BMI {
 
         if (index<18.5)
             System.out.println("You are Underweight");
-
+        else if (18.5<index=<25.0)
+            System.out.println("You are Underweight");
 
 
     }
